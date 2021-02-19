@@ -26,8 +26,9 @@
     "updateRemoteUserUID": false,
     "containerUser": "docker",
     // Add the IDs of extensions you want installed when the container is created in the array below.
+    // Use: "code --list-extensions" to get a list with the names of the extensions installed
     "extensions": [
-        "ms-vscode.cpptools",
+        "ms-python.python",
         "ms-python.vscode-pylance"
     ]
 }
