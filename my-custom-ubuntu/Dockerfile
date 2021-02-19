@@ -78,3 +78,5 @@ ENTRYPOINT ["bash", "/usr/local/bin/entrypoint.sh"]
 # Last is the actual command to start up NGINX within our Container
 #CMD ["nginx", "-g", "daemon off;"]
 
+# Create Docker user for devcontainer (cannot be done at runtime by entrypoint.sh)
+RUN adduser docker --gecos "docker user" --disabled-password

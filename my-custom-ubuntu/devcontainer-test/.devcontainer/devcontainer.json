@@ -1,8 +1,8 @@
 // For format details, see https://aka.ms/vscode-remote/devcontainer.json or the definition README at
 // https://github.com/microsoft/vscode-dev-containers/tree/master/containers/cpp
 {
-    "name": "my-custom-ubuntu:1.00",
-    "image": "my-custom-ubuntu:1.00",
+    "name": "My Custom Ubuntu",
+    "image": "gvallfo/my-custom-ubuntu:1.00",
     "runArgs": [
         "--env",
         "LOCAL_USER_ID=1000"
@@ -26,8 +26,9 @@
     "updateRemoteUserUID": false,
     "containerUser": "docker",
     // Add the IDs of extensions you want installed when the container is created in the array below.
+    // Use: "code --list-extensions" to get a list with the names of the extensions installed
     "extensions": [
-        "ms-vscode.cpptools",
+        "ms-python.python",
         "ms-python.vscode-pylance"
     ]
 }
