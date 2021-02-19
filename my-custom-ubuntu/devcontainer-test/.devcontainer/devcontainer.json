@@ -2,7 +2,7 @@
 // https://github.com/microsoft/vscode-dev-containers/tree/master/containers/cpp
 {
     "name": "My Custom Ubuntu",
-    "image": "my-custom-ubuntu:1.00",
+    "image": "gvallfo/my-custom-ubuntu:1.00",
     "runArgs": [
         "--env",
         "LOCAL_USER_ID=1000"
