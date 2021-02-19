@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/vscode-remote/devcontainer.json or the definition README at
 // https://github.com/microsoft/vscode-dev-containers/tree/master/containers/cpp
 {
-    "name": "my-custom-ubuntu:1.00",
+    "name": "My Custom Ubuntu",
     "image": "my-custom-ubuntu:1.00",
     "runArgs": [
         "--env",
