@@ -1,0 +1,7 @@
+# ignore everything
+**/*
+
+# whitelist
+!entrypoint.sh
+!requirements.txt
+!hello.py
